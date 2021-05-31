@@ -43,8 +43,8 @@ html{
 li a{
     
     text-decoration: none;
-    color: rgb(80, 78, 78);
-    font-weight: lighter;
+    color: black;
+    font-weight: bold;
     
     
 }
@@ -74,9 +74,10 @@ ul#end li{
 
 }
     .nav-item{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 12px;
         text-decoration: none;
+        font-weight: bold;
         
         
     }

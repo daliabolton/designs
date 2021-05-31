@@ -69,7 +69,7 @@ body{
 li a{
     
     text-decoration: none;
-    color: rgb(80, 78, 78);
+    color: black;
     font-weight: lighter;
     
     
@@ -85,24 +85,24 @@ li a{
     
 }
 h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-top: 100px;
     font-weight: bold;
 }
 p{
-    font-family:'Times New Roman', Times, serif; font-size: 20px; text-align: center; padding-top: 50px; width: 70%;margin: 0 auto;padding-bottom: 50px;
+    font-family:'Montserrat', sans-serif; font-weight: lighter; font-size: 18px; text-align: center; padding-top: 50px; width: 70%;margin: 0 auto;padding-bottom: 50px;
 }
 
 li{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
 }
 
 .nav-item{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     text-decoration: none;
     
@@ -119,7 +119,7 @@ li{
 
 .lead{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Montserrat', sans-serif ;
     float: left;
     margin: auto;
 }
