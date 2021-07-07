@@ -66,6 +66,25 @@ body{
 }
 
 
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    
+    
+}
+
+.nav-link.active{
+    font-weight: bold;
+}
+
 
 ul#end li{
     display: inline;
@@ -73,14 +92,7 @@ ul#end li{
     cursor: pointer;
 
 }
-    .nav-item{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
-        text-decoration: none;
-        font-weight: bold;
-        
-        
-    }
+    
     
     .nav-link.active{
         font-weight: bold;
@@ -128,6 +140,7 @@ ul#end li{
    padding: 10px;
    padding-bottom: 20px;
     cursor: pointer;
+    margin: 0px 20px 70px -10px;
 }
 
 
@@ -280,7 +293,8 @@ h3{
      
       
     }
-  
+
+    
   button {
     display: inline;
     border-radius: 30px;
@@ -324,8 +338,10 @@ h3{
 
 @media only screen and (max-width: 600px) {  
     div.numberTwo {
-        width: 100%;
+        margin: 0 auto;
         height: 30%;
+        border-width: 50;
+    
     
       }
       div.first {
@@ -333,8 +349,15 @@ h3{
        
       }
 
+    #myImage{
+        margin:0px 50px -20px -100px;
+      
+        
+    }
+
       img{
           width: 70%;
+         
       }
 
      div.icon{
@@ -343,8 +366,19 @@ h3{
      }
 
      #border{
-         width: 50%;
+         width: 60%;
      }
+
+     #end{
+         width: 200%;
+         margin: 0px 50px -20px -250px;
+     }
+
+
+div#intro{
+    margin: 0 auto;
+}
+   
  
 }
 
