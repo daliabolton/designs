@@ -133,11 +133,25 @@ li{
     
 }
 
+@media only screen and (max-width: 600px) {
+
+    #border{
+        width: 60%;
+    }
+
+    #end{
+        width: 200%;
+        margin: 0px 50px -20px -250px;
+    }
+
+}
+
 ul#end li{
     display: inline;
    padding: 10px;
    padding-bottom: 20px;
     cursor: pointer;
+    margin: 0px 20px 70px -10px;
 }
 
 @media screen and (max-width:800px) {
